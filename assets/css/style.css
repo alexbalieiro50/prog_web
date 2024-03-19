@@ -104,13 +104,13 @@ li {
 
 /* fim nav-bar*/
 
-header {
+.header-imagem {
     height: 500px;
     background-image: url(../img/img.jpg);
     background-size: cover;
 }
 
-.titulo-produtos{
+.titulo-produtos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,16 +119,17 @@ header {
     margin: 2%;
 }
 
-.titulo-produtos h1{
+.titulo-produtos h1 {
     font-weight: 400;
 }
 
-
-.titulo-produtos .fa-solid{    
+.titulo-produtos .fa-solid {
     font-size: 25pt;
     padding: 5rem;
 
 }
+
+/* Menu Pincipal*/
 .menu {
     background: #fdf5f2;
     padding: 0 20rem;
@@ -140,12 +141,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;    
+    padding: 20px;
 }
 
 .item-menu {
-    width: 150px;
-    height: 150px;
+    width: 15vw;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,9 +163,6 @@ header {
     text-align: center;
     font-weight: 300;
 }
-
-
-
 .list-produtos {
     display: flex;
     justify-content: space-around;
@@ -204,7 +202,7 @@ h3 {
     color: #fff;
 }
 
-.inform-padaria{
+.inform-padaria {
     height: 400px;
     background-image: url(../img/fundo3.png);
     background-size: 70%;
@@ -213,40 +211,49 @@ h3 {
     justify-content: center;
 }
 
-.inform-titulos{
+.inform-titulos {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #501914;
+    color: #000;
     margin: 15px;
 }
 
-.inform-titulos .fa-solid{
+.inform-titulos .fa-solid {
     font-size: 35pt;
     padding: 15px;
     text-shadow: 1px 1px 0px #fff;
 }
 
-.inform-titulos h1{
+.inform-titulos h1 {
     font-size: 15pt;
-    font-weight: 400;
+    font-weight: 600;
     text-shadow: 1px 1px 0px #fff;
 }
 
-.inform-padaria img{
-    width: 20%;
+.inform-padaria img {
+    width: 25%;
 }
 
-.informativo{
-    height: 250px;
+.informativo {
+    height: 40vh;
     background-image: url(../img/img2.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.inform-sobre{
+.informativo h1 {
+    font-weight: 400;
+}
+
+
+.inform-sobre {
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -254,9 +261,11 @@ h3 {
     padding: 0 15rem;
     margin: 20px;
 }
-.inform-sobre img{
-    width: 30%;
+
+.inform-sobre img {
+    width: 50%;
 }
+
 .sobre-textos {
     width: 40%;
     color: #501914;
@@ -266,31 +275,216 @@ h3 {
     align-items: center;
 }
 
-.sobre-textos h2{
+.sobre-textos h2 {
     font-size: 20pt;
     text-align: center;
     font-weight: 500;
     margin-bottom: 25px;
 }
-.sobre-textos h3{
+
+.sobre-textos p {
     font-size: 15pt;
     font-weight: 300;
-    text-align:center;
+    text-align: center;
 }
+/* Fim Menu Pincipal*/
 
-
-
-
-
-
-
-
-
+/* Footer*/
 footer {
+    height: 30vh;
+    display: flex;
     background-color: #501914;
     color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contatos h1 {
+    font-weight: 400;
 }
 
 .footer-logo img {
     width: 10vw;
+    margin-right: 5rem;
 }
+
+.footer-contatos p {
+    font-weight: 400;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+.footer-zap {
+    display: block;
+}
+.footer-tell {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.footer-tell a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-tell i {
+    font-size: 25pt;
+    margin-right: 10px;
+}
+/* Fim Footer*/
+
+/******************/
+
+/* Entrar Cadastrar*/
+.entrar-cadastrar{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*css form login*/
+.form-login {
+    display: flex;
+    align-items:first baseline;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px;
+}
+.login fieldset{
+    width: 25vw;
+    height: 33vh;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #cfc8d8;
+
+}
+
+.login form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login input{
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+.login input[type="submit"]{
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color:#9d9d9d ;
+    color: #fff;
+    border: none;
+}
+.login input[type="submit"]:hover{
+   background-color: #501914;
+}
+.login label{
+    margin-bottom: 10px;
+    color: #464646;
+}
+
+.login h2{
+    margin-bottom: 25px;
+    font-size: 30pt;
+    font-weight: 600;
+    color: #464646;
+}
+
+.login a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13pt;
+    color: #501914;
+    margin-left: 5px;
+}
+/*fim css form login*/
+
+/*css form cadastrar*/
+.cadastre-se{
+    margin-left: 15px;
+
+}
+
+.cadastre-se form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cadastre-se fieldset{
+    width: 25vw;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #cfc8d8;
+}
+
+.cadastre-se p{
+    text-align: justify;
+    padding: 15px;
+}
+
+.cadastre-se label{
+    margin-bottom: 10px;
+    color: #464646;
+}
+
+.cadastre-se input{
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.cadastre-se input[type="submit"]{
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color:#9d9d9d ;
+    color: #fff;
+    border: none;
+}
+
+.cadastre-se input[type="submit"]:hover{
+    background-color: #501914;
+ }
+
+.cadastre-se h2{
+    margin-bottom: 25px;
+    font-size: 30pt;
+    font-weight: 600;
+    color: #464646;
+}
+
+/*fim form login*/
