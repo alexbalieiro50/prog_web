@@ -674,25 +674,37 @@ footer {
 
 /*CSS Editar Conta*/
 .form-edit{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #050505;
+    display: block;   
+    padding: 0 5rem;
 }
-.form-edit form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #29e703;
+.form-edit input{
+    
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+.item-edit1{
+    display: flex;    
 }
 
-.item-edit1{
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.item-edit input{
+    width: 20vw;
 }
+.item-edit1 #nome{
+    width: 300px;
+}
+
+.item-edit{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 0 2rem;
+}
+
 /*Fim CSS Editar Conta*/
 /*575c62
