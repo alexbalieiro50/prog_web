@@ -110,6 +110,25 @@ header {
     background-size: cover;
 }
 
+.titulo-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    color: #501914;
+    margin: 2%;
+}
+
+.titulo-produtos h1{
+    font-weight: 400;
+}
+
+
+.titulo-produtos .fa-solid{    
+    font-size: 25pt;
+    padding: 5rem;
+
+}
 .menu {
     background: #fdf5f2;
     padding: 0 20rem;
@@ -184,6 +203,88 @@ h3 {
     background-color: #501914;
     color: #fff;
 }
+
+.inform-padaria{
+    height: 400px;
+    background-image: url(../img/fundo3.png);
+    background-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inform-titulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #501914;
+    margin: 15px;
+}
+
+.inform-titulos .fa-solid{
+    font-size: 35pt;
+    padding: 15px;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.inform-titulos h1{
+    font-size: 15pt;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.inform-padaria img{
+    width: 20%;
+}
+
+.informativo{
+    height: 250px;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.inform-sobre{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15rem;
+    margin: 20px;
+}
+.inform-sobre img{
+    width: 30%;
+}
+.sobre-textos {
+    width: 40%;
+    color: #501914;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-textos h2{
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.sobre-textos h3{
+    font-size: 15pt;
+    font-weight: 300;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #501914;
