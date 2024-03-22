@@ -1,0 +1,97 @@
+<!-- tela_endereco.handlebars -->
+
+<!-- Menu Principal -->
+<main>
+
+    <div class="barra-sair">
+        <a href="#" id="logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Sair</p>
+        </a>
+    </div>
+    <div class="painel-principal">
+        <div class="user-panel">
+            <a href="/usuario">
+                <div class="item-painel">
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h3>Painel</h3>
+                </div>
+            </a>
+            <a href="/pedidos">
+                <div class="item-painel">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <h3>Pedidos</h3>
+                </div>
+            </a>
+            <a href="/endereco">
+                <div class="item-painel">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Endereço</h3>
+                </div>
+            </a>
+            <a href="/editar">
+                <div class="item-painel">
+                    <i class="fa-solid fa-file-pen"></i>
+                    <h3>Editar conta</h3>
+                </div>
+            </a>
+        </div>
+        <div id="linha-vertical"></div>
+
+        <div class="endereco">
+            <h2>Endereço</h2>
+            <div class="form-endereco">
+                <form id="endereco-form" action="#" method="post">
+                    <div class="item-end1">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep">
+
+                        <label for="endereco">Endereço</label>
+                        <input type="text" name="endereco" id="endereco">
+                    </div>
+
+                    <div class="item-end2">
+                        <div class="alinhar-item">
+                            <label for="numero">Número</label>
+                            <input type="text" name="numero" id="numero">
+                        </div>
+
+                        <div class="alinhar-item">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" name="complemento" id="complemento"
+                                placeholder="Apartamento, suite, sala, etc. (opcional)">
+                        </div>
+                    </div>
+                    <div class="item-end1">
+
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro">
+
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado">
+                    </div>
+                    <input type="submit" value="Salvar">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<!-- Fim Menu Principal -->
+
+<script>
+    // JavaScript
+    document.getElementById('logout').addEventListener('click', function (event) {
+        event.preventDefault(); // Evita que o link execute a ação padrão de navegação
+
+        // Realiza a ação de logout
+        // Por exemplo, limpar a sessão, redirecionar para a página de login, etc.
+        // Neste exemplo, vamos apenas redirecionar para a página inicial
+        window.location.href = '/'; // Redireciona para a página inicial
+    });
+
+</script>

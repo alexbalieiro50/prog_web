@@ -1,0 +1,88 @@
+<!-- Menu Principal -->
+<main>
+
+    <div class="barra-sair">
+        <a href="" id="logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Sair</p>
+        </a>
+    </div>
+    <div class="painel-principal">
+        <div class="user-panel1">
+            <div class="user-panel">
+                <a href="/adm">
+                    <div class="item-painel">
+                        <i class="fa-solid fa-laptop-file"></i>
+                        <h3>Painel</h3>
+                    </div>
+                </a>
+                <a href="/pedidos">
+                    <div class="item-painel">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <h3>Pedidos</h3>
+                    </div>
+                </a>
+                <a href="/add_produto">
+                    <div class="item-painel">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <h3>Add Produto</h3>
+                    </div>
+                </a>
+                <a href="/listaProduto">
+                    <div class="item-painel">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <h3>Listar Produto</h3>
+                    </div>
+                </a>
+
+            </div>
+
+            <div id="linha-vertical"></div>
+
+            <div class="addprodutos">
+                <div class="form-produto">
+                    <form action="/formulario" method="post" enctype="multipart/form-data">
+                        <!-- Definindo o atributo action para o endpoint "/formulario" -->
+                        <div class="item-form">
+                            <label for="nome">Nome do Produto</label>
+                            <input type="text" name="nome" id="nome">
+
+                            <input type="file" name="add" id="add">
+
+                            <label for="preco">Preço</label>
+                            <input type="text" name="preco" id="preco">
+
+                            <label for="quantidade">Quantidade</label> <!-- Corrigindo o id para "quantidade" -->
+                            <input type="text" name="quantidade" id="quantidade">
+                            <!-- Corrigindo o name para "quantidade" -->
+
+                            <label for="categoria">Categoria</label> <!-- Corrigindo o id para "categoria" -->
+                            <input type="text" name="categoria" id="categoria">
+                            <!-- Corrigindo o name para "categoria" -->
+
+                            <label for="fornecedor">Fornecedor</label>
+                            <input type="text" name="fornecedor" id="fornecedor">
+                        </div>
+                        <input type="submit" value="Adicionar">
+                        <!-- Movendo o botão "Adicionar" para dentro do <form> -->
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+</main>
+<!-- Fim Menu Pincipal-->
+<script>
+    // JavaScript
+    document.getElementById('logout').addEventListener('click', function (event) {
+        event.preventDefault(); // Evita que o link execute a ação padrão de navegação
+
+        // Realiza a ação de logout
+        // Por exemplo, limpar a sessão, redirecionar para a página de login, etc.
+        // Neste exemplo, vamos apenas redirecionar para a página inicial
+        window.location.href = '/'; // Redireciona para a página inicial
+    });
+
+</script>

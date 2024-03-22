@@ -1,0 +1,38 @@
+<main>
+    <div class="entrar-cadastrar">
+        <div class="form-login">
+            <div class="login">
+                <h2>Entrar</h2>
+                <fieldset>
+                    <form action="#" method="post" id="loginForm"> <!-- Adicionando o ID 'loginForm' -->
+                        <label for="emailLogin">Endereço de e-mail</label>
+                        <input type="email" name="emailLogin" id="emailLogin">
+                        <label for="senhaLogin">Senha</label>
+                        <input type="password" name="senhaLogin" id="senhaLogin">
+                        <input type="submit" value="Login">
+                    </form>
+                    <a href="/listaProduto">Esqueceu a senha?</a>
+                </fieldset>
+            </div>
+
+            <div class="cadastre-se">
+                <h2>Cadastre-se</h2>
+                <fieldset>
+                    <form action="/cadastro" method="post" id="signupForm"> <!-- Corrigido o atributo 'action' -->
+                        <label for="emailCadastro">Endereço de e-mail</label>
+                        <input type="email" name="emailCadastro" id="emailCadastro">
+                        <label for="senhaCadastro">Senha</label>
+                        <input type="password" name="senhaCadastro" id="senhaCadastro">
+                        <p>Seus dados pessoais serão usados para aprimorar
+                            a sua experiência em todo este site, para gerenciar
+                            o acesso a sua conta e para outros propósitos,
+                            como descritos em nossa política de privacidade.
+                        </p>
+                        <input type="submit" value="Cadastrar">
+                    </form>
+                </fieldset>
+            </div>
+
+        </div>
+    </div>
+</main>
