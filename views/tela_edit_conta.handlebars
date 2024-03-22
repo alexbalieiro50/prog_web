@@ -1,0 +1,102 @@
+<!-- Menu Principal -->
+<main>
+
+    <div class="barra-sair">
+        <a href="" id="logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Sair</p>
+        </a>
+    </div>
+    <div class="painel-principal">
+        <div class="user-panel">
+            <a href="/usuario">
+                <div class="item-painel">
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h3>Painel</h3>
+                </div>
+            </a>
+            <a href="/pedidos">
+                <div class="item-painel">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <h3>Pedidos</h3>
+                </div>
+            </a>
+            <a href="/endereco">
+                <div class="item-painel">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Endereço</h3>
+                </div>
+                <a href="/editar">
+                    <div class="item-painel">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <h3>Editar conta</h3>
+                    </div>
+                </a>
+        </div>
+
+        <div id="linha-vertical"></div>
+
+
+        <div class="edit-conta">
+
+            <div class="form-conta">
+                <form action="#">
+
+                    <div class="item-form-conta">
+                        <div class="item-form">
+                            <label for="nome_edit">Nome</label>
+                            <input type="text" name="nome_edit" id="nome_edit">
+                        </div>
+
+                        <div class="item-form">
+                            <label for="sobrenome_edit">Sobrenome</label>
+                            <input type="text" name="sobrenome_edit" id="sobrenome_edit">
+                        </div>
+                    </div>
+
+                    <div class="item-form">
+                        <label for="email_edit">Endereço de e-mail</label>
+                        <input type="email_edit" name="email_edit" id="email_edit">
+                    </div>
+
+
+                    <fieldset>
+                        <legend> Alterar senha</legend>
+                        <div class="item-form">
+                            <label for="senha_atual">Senha atual</label>
+                            <input type="password" name="senha_atual" id="senha_atual">
+                        </div>
+                        <div class="item-form">
+                            <label for="nova_senha">Nova senha</label>
+                            <input type="password" name="nova_senha" id="nova_senha">
+                        </div>
+                        <div class="item-form">
+                            <label for="conf_nova_sena">Confimar nova senha</label>
+                            <input type="password" name="conf_nova_senao" id="conf_nova_sena">
+                        </div>
+
+                    </fieldset>
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</main>
+<!-- Fim Menu Pincipal-->
+
+<script>
+    // JavaScript
+    document.getElementById('logout').addEventListener('click', function (event) {
+        event.preventDefault(); // Evita que o link execute a ação padrão de navegação
+
+        // Realiza a ação de logout
+        // Por exemplo, limpar a sessão, redirecionar para a página de login, etc.
+        // Neste exemplo, vamos apenas redirecionar para a página inicial
+        window.location.href = '/'; // Redireciona para a página inicial
+    });
+
+</script>

@@ -1,0 +1,57 @@
+<!-- Menu Principal -->
+<main>
+    <div class="barra-sair">
+        <a href="#" id="logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <p>Sair</p>
+        </a>
+    </div>
+    <div class="painel-principal">
+        <div class="user-panel">
+            <a href="/usuario">
+                <div class="item-painel">
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h3>Painel</h3>
+                </div>
+            </a>
+            <a href="/pedidos">
+                <div class="item-painel">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <h3>Pedidos</h3>
+                </div>
+            </a>
+            <a href="/endereco">
+                <div class="item-painel">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Endereço</h3>
+                </div>
+            </a>
+            <a href="/editar">
+                <div class="item-painel">
+                    <i class="fa-solid fa-file-pen"></i>
+                    <h3>Editar conta</h3>
+                </div>
+            </a>
+        </div>
+        <div id="linha-vertical"></div>
+        <div class="user-info">
+            <p>Olá, <span id="user-name"></span> (<span id="user-email"></span>) (não é <span id="user-name-link"></span>? <a href="#" id="logout-link">Sair</a>)</p>
+            <p>A partir do painel de controle de sua conta, você pode ver suas compras recentes, gerenciar seus
+                endereços de entrega<br> e faturamento, e editar sua senha e detalhes da conta.</p>
+        </div>
+    </div>
+</main>
+<!-- Fim Menu Principal-->
+
+<script>
+    // JavaScript
+    document.getElementById('logout').addEventListener('click', function (event) {
+        event.preventDefault(); // Evita que o link execute a ação padrão de navegação
+
+        // Realiza a ação de logout
+        // Por exemplo, limpar a sessão, redirecionar para a página de login, etc.
+        // Neste exemplo, vamos apenas redirecionar para a página inicial
+        window.location.href = '/'; // Redireciona para a página inicial
+    });
+
+</script>

@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar-superior {
+    background-color: #501914;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 6rem;
+}
+
+/* item contato*/
+.nav-list-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-contato ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item-contato {
+    margin: 0 10px;
+}
+
+.nav-link-contato,
+li {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* fim item contato*/
+
+/* item conta*/
+.nav-list-conta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-conta ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item-conta {
+    margin: 0 10px;
+}
+
+.nav-link-conta,
+li {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* fim item conta*/
+
+/* nav-bar*/
+.nav-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 6rem;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.logo img {
+    width: 100px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #501914;
+    font-weight: 400;
+}
+
+/* fim nav-bar*/
+
+.header-imagem {
+    height: 500px;
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+}
+
+.titulo-produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    color: #501914;
+    margin: 2%;
+}
+
+.titulo-produtos h1 {
+    font-weight: 400;
+}
+
+.titulo-produtos .fa-solid {
+    font-size: 25pt;
+    padding: 5rem;
+
+}
+
+/* Menu Pincipal*/
+.menu {
+    margin-top: 5px;
+    background-color: #fdf5f2;
+    padding: 0 20rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.item-menu {
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.item-menu:hover {
+    background-color: #efdddc;
+}
+
+.item-menu h3 {
+    color: #501914;
+    text-align: center;
+    font-weight: 300;
+}
+
+.list-produtos {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem;
+    margin: 10px;
+    transition: transform 0.5s ease;
+}
+
+
+.produto {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.produto:hover {
+    background-color: #fdf5f2;
+
+}
+
+.produto img {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.produto h2,
+h3 {
+    color: #501914;
+}
+
+.produto h3 {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.produto input {
+    background-color: #b4b4b4;
+    color: #501914;
+    border: none;
+    padding: 10px;
+    font-size: 12pt;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.produto input:hover {
+    background-color: #501914;
+    color: #fff;
+}
+
+.inform-padaria {
+    height: 400px;
+    background-image: url(../img/fundo3.png);
+    background-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inform-titulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    margin: 15px;
+}
+
+.inform-titulos .fa-solid {
+    font-size: 35pt;
+    padding: 15px;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.inform-titulos h1 {
+    font-size: 15pt;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.inform-padaria img {
+    width: 25%;
+}
+
+.informativo {
+    height: 40vh;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informativo h1 {
+    font-weight: 400;
+}
+
+
+.inform-sobre {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15rem;
+    margin: 20px;
+}
+
+.inform-sobre img {
+    width: 50%;
+}
+
+.sobre-textos {
+    width: 40%;
+    color: #501914;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-textos h2 {
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.sobre-textos p {
+    font-size: 15pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Fim Menu Pincipal*/
+
+/* Footer*/
+footer {
+    height: 30vh;
+    display: flex;
+    background-color: #501914;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contatos h1 {
+    font-weight: 400;
+}
+
+.footer-logo img {
+    width: 10vw;
+    margin-right: 5rem;
+}
+
+.footer-contatos p {
+    font-weight: 400;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+.footer-zap {
+    display: block;
+}
+
+.footer-tell {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.footer-tell a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-tell i {
+    font-size: 25pt;
+    margin-right: 10px;
+}
+
+/* Fim Footer*/
+
+/******************/
+
+/* Entrar Cadastrar*/
+.entrar-cadastrar {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*css form login*/
+.form-login {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px;
+}
+
+.login fieldset {
+    width: 25vw;
+    height: 33vh;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cfc8d8;
+
+}
+
+.login form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.login input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #9d9d9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #501914;
+}
+
+.login label {
+    margin-bottom: 10px;
+    color: #464646;
+}
+
+.login h2 {
+    margin-bottom: 25px;
+    font-size: 30pt;
+    font-weight: 600;
+    color: #464646;
+}
+
+.login a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13pt;
+    color: #501914;
+    margin-left: 5px;
+}
+
+/*fim css form login*/
+
+/*css form cadastrar*/
+.cadastre-se {
+    margin-left: 15px;
+
+}
+
+.cadastre-se form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cadastre-se fieldset {
+    width: 25vw;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cfc8d8;
+}
+
+.cadastre-se p {
+    text-align: justify;
+    padding: 15px;
+}
+
+.cadastre-se label {
+    margin-bottom: 10px;
+    color: #464646;
+}
+
+.cadastre-se input {
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.cadastre-se input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #9d9d9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cadastre-se input[type="submit"]:hover {
+    background-color: #501914;
+}
+
+.cadastre-se h2 {
+    margin-bottom: 25px;
+    font-size: 30pt;
+    font-weight: 600;
+    color: #464646;
+}
+
+/*fim form login*/
+
+/* CSS Tela Usuario */
+.barra-sair {
+    height: 10vh;
+    background-image: url(../img/fundo3.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 1rem;
+    font-size: 20pt;
+    color: #000;
+
+}
+
+.barra-sair:hover a {
+    color: #501914;
+}
+
+.barra-sair p {
+    margin-left: 15px;
+}
+
+.barra-sair a {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.painel-principal a {
+    text-decoration: none;
+    color: #501914;
+}
+
+#linha-vertical {
+    width: 1px;
+    height: 25vh;
+    background-color: #501914;
+    margin-left: 50px;
+}
+
+.user-panel {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #501914;
+
+}
+
+.item-painel {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: 400;
+}
+
+.item-painel h3 {
+    color: #575c62;
+    font-weight: 600;
+}
+
+.item-painel i {
+    width: 45px;
+    display: flex;
+    margin-right: 15px;
+    font-size: 25pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-infor {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #575c62;
+}
+
+.user-infor p {
+    margin-left: 25px;
+    padding: 15px;
+}
+
+.user-infor a {
+    color: #501914;
+}
+
+/* Fim CSS Tela Usuario */
+/*CSS Endereço*/
+.painel-principal{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.painel-principal a {
+    text-decoration: none;
+    color: #501914;
+}
+
+.endereco {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 5rem;
+    
+}
+
+.endereco h2 {
+    color: #575c62;
+    margin-bottom: 30px;
+}
+
+.form-endereco{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-end1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item-end1 input{
+    height: 3.5vh;      
+}
+
+
+.item-end2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-end2 input{
+    height: 3.5vh;  
+     
+}
+
+.alinhar-item{
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    justify-content: center;
+     
+}
+.form-endereco label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#complemento{
+    width: 600px;
+}
+
+#cep {
+    width: 225px;
+}
+
+#numero {
+    width: 225px;
+}
+
+.form-endereco input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #9d9d9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-endereco input[type="submit"]:hover {
+    background-color: #501914;
+}
+
+/*Fim CSS Endereço*/
+
+/*CSS Editar Conta*/
+
+.edit-conta {
+    /*border: 1px solid #000;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.form-conta form {
+    width: 50vw;
+    display: block;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-form input {
+    height: 3.5vh;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.item-form label {
+    margin-bottom: 5px;
+    color: #575c62;
+}
+
+.item-form-conta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#nome_edit {
+    width: 350px;
+}
+
+#sobrenome_edit {
+    width: 400px;
+}
+
+.form-conta input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #9d9d9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-conta input[type="submit"]:hover {
+    background-color: #501914;
+}
+
+.form-conta fieldset {
+    padding: 10px;
+}
+
+.form-conta legend {
+    font-size: 15pt;
+    padding: 0 15px 0 15px;
+    margin-left: 25px;
+    font-weight: 600;
+    color: #9d9d9d;
+}
+
+/*Fim CSS Editar Conta*/
+
+/* CSS Tela Produtos*/
+.main-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vestical {
+    padding: 15px;
+}
+
+.vestical a {
+    text-decoration: none;
+    color: #7C1F2A;
+    font-size: 20px;
+    letter-spacing: 0px;
+    display: list-item;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.vestical a:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.vestical h4 {
+    color: #464646;
+    font-size: 25pt;
+    padding: 5px;
+}
+
+
+.produtos img {
+    margin-top: 10%;
+    width: 20vh;
+    border-radius: 10px;
+}
+
+.vertical-menu {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 1rem;
+}
+
+.list-produtos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 25px;
+}
+
+.search-box li {
+    margin-top: 15px;
+}
+
+.search-box input {
+    width: 50vw;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+#linha-vertical-prod {
+    width: 2px;
+    height: 50vh;
+    background: #7C1F2A;
+    margin-left: 50px;
+}
+
+
+/* Fim CSS Tela Produtos*/
+
+/*CSS Tela Sobre*/
+.historia-empresa {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.historia-empresa h2 {
+    margin: 0 auto;
+    font-size: 20pt;
+    color: #7C1F2A;
+    font-weight: 400;
+}
+
+.historia-empresa p {
+    font-size: 15pt;
+    font-weight: 300;
+    color: #666666;
+    margin-top: 25px;
+}
+
+.cultura-empresa {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.textos-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.textos-infor h2 {
+    color: #7C1F2A;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.textos-infor p {
+
+    font-size: 15pt;
+    font-weight: 300;
+    color: #666666;
+}
+
+.cultura-empresa img {
+    width: 30vw;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.materia-prima-empresa {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.textos-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.textos-infor h2 {
+    color: #7C1F2A;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.textos-infor p {
+
+    font-size: 15pt;
+    font-weight: 300;
+    color: #666666;
+}
+
+.materia-prima-empresa img {
+    width: 30vw;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipe h2 {
+    margin-bottom: 5%;
+    color: #7C1F2A;
+    font-weight: 400;
+    margin-top: 15%;
+}
+
+.container-equipe {
+    display: flex;
+}
+
+.equipe-imagem {
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe-imagem img {
+    width: 12vw;
+    padding: 5px;
+}
+
+.imagem-fix {
+    height: 40vh;
+    background-image: url(../img/img8.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Fim CSS Tela Sobre*/
+
+/* CSS Tela Contatos*/
+.fundo {
+    height: 50vh;
+    background-image: url(../img/fundo3.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-zapp {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-tel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.footer-tel a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-tel i {
+    color: #000;
+    font-size: 25pt;
+    margin-right: 10px;}
+
+/* Fim CSS Tela Contatos*/
+
+/*css produto*/
+.user-panel1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.addprodutos{
+    padding: 0 5rem;
+
+}
+.form-produto input[type="submit"] {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #9d9d9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.form-produto input[type="submit"]:hover {
+    background-color: #501914;
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilizando as células do cabeçalho */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilizando as células dos dados */
+.celula {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+/* Estilizando as células dos links de remover e editar */
+td a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 15px;
+}
+
+/* Estilizando os links de remover e editar quando passam o mouse sobre eles */
+td a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/*fim css produto*/
+/*575c62
